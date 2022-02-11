@@ -1,0 +1,46 @@
+
+.fill-viewport {
+    min-height: 100vh 
+}
+
+.btnAnswer{
+    min-width: 80px;
+    min-height: 80px;
+    text-align: 40px;
+}
+
+.btnStart{
+    min-width: 400px;
+    min-height: 200px;
+    text-align: 40px;
+}
+body {
+    background-color: #cccccc;
+}
+.background {
+    background-image: url("resource/sea.png");
+    background-color: #cccccc;
+}
+
+.generated-text {
+    font-family:Baskerville, serif;
+    font-size:50px;
+    font-weight:bold;
+    text-align:center;
+    color:#20e3d3;
+    background-color:#ad23ad;
+    padding:20px;
+}
+
+.maintxt {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 64%;
+    transform: translate(-50%, -50%);
+}
